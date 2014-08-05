@@ -30,7 +30,7 @@ class Helpers {
 
   public static function array_underscore($array)
   {
-    str_replace('.', '_', array_dot($array))
+    str_replace('.', '_', array_dot($array));
   }
 
   public static function underscore_array($string)
