@@ -1,0 +1,94 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 003461f..e313117 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -368,7 +368,7 @@[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="0" y="0" width="1440" height="900" extended-state="0" />[m
+[31m-    <editor active="true" />[m
+[32m+[m[32m    <editor active="false" />[m
+     <layout>[m
+       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />[m
+[36m@@ -380,7 +380,7 @@[m
+       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />[m
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />[m
+[31m-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />[m
+[32m+[m[32m      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />[m
+       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />[m
+[1mdiff --git a/public/197264_1902383445180_3761149_n.jpg b/public/197264_1902383445180_3761149_n.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 384ab09..0000000[m
+Binary files a/public/197264_1902383445180_3761149_n.jpg and /dev/null differ
+[1mdiff --git a/public/2013-10-18 16.18.15.jpg b/public/2013-10-18 16.18.15.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 4dd8929..0000000[m
+Binary files a/public/2013-10-18 16.18.15.jpg and /dev/null differ
+[1mdiff --git a/public/72530_10151389561936488_432581968_n.jpg b/public/72530_10151389561936488_432581968_n.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex f6504ab..0000000[m
+Binary files a/public/72530_10151389561936488_432581968_n.jpg and /dev/null differ
+[1mdiff --git a/public/74951.jpg b/public/74951.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 20dbfc1..0000000[m
+Binary files a/public/74951.jpg and /dev/null differ
+[1mdiff --git a/public/IMG_20140723_092036_931.jpg b/public/IMG_20140723_092036_931.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex f5cda78..0000000[m
+Binary files a/public/IMG_20140723_092036_931.jpg and /dev/null differ
+[1mdiff --git a/public/ackman-ad.jpg b/public/ackman-ad.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex d81a891..0000000[m
+Binary files a/public/ackman-ad.jpg and /dev/null differ
+[1mdiff --git a/public/ca_truck.jpg b/public/ca_truck.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 6507afb..0000000[m
+Binary files a/public/ca_truck.jpg and /dev/null differ
+[1mdiff --git a/public/dp-football-ad.jpg b/public/dp-football-ad.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 725076b..0000000[m
+Binary files a/public/dp-football-ad.jpg and /dev/null differ
+[1mdiff --git a/public/galaxy-test-1.png b/public/galaxy-test-1.png[m
+[1mdeleted file mode 100644[m
+[1mindex 27e64c0..0000000[m
+Binary files a/public/galaxy-test-1.png and /dev/null differ
+[1mdiff --git a/public/giftcert_50.png b/public/giftcert_50.png[m
+[1mdeleted file mode 100644[m
+[1mindex d77dda8..0000000[m
+Binary files a/public/giftcert_50.png and /dev/null differ
+[1mdiff --git a/public/hawthorne.png b/public/hawthorne.png[m
+[1mdeleted file mode 100644[m
+[1mindex 57d0362..0000000[m
+Binary files a/public/hawthorne.png and /dev/null differ
+[1mdiff --git a/public/landscape_installs.jpg b/public/landscape_installs.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 528f719..0000000[m
+Binary files a/public/landscape_installs.jpg and /dev/null differ
+[1mdiff --git a/public/ms192tce_act_001.jpg b/public/ms192tce_act_001.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 6096313..0000000[m
+Binary files a/public/ms192tce_act_001.jpg and /dev/null differ
+[1mdiff --git a/public/orlando.jpg b/public/orlando.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 18f474d..0000000[m
+Binary files a/public/orlando.jpg and /dev/null differ
+[1mdiff --git a/public/photo-2.JPG b/public/photo-2.JPG[m
+[1mdeleted file mode 100644[m
+[1mindex 0523630..0000000[m
+Binary files a/public/photo-2.JPG and /dev/null differ
+[1mdiff --git a/public/photo-3.JPG b/public/photo-3.JPG[m
+[1mdeleted file mode 100644[m
+[1mindex 6f18c0c..0000000[m
+Binary files a/public/photo-3.JPG and /dev/null differ
+[1mdiff --git a/public/service_plan_proposal.jpg b/public/service_plan_proposal.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex db36b36..0000000[m
+Binary files a/public/service_plan_proposal.jpg and /dev/null differ
+[1mdiff --git a/public/team-member-terry.jpg b/public/team-member-terry.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex 51ed2af..0000000[m
+Binary files a/public/team-member-terry.jpg and /dev/null differ
