@@ -1,0 +1,13 @@
+MowerMatcher\Users\User:
+  username: $string
+  email: $string@example.com
+  password: $string
+  created_at: $date
+  updated_at: $date
+
+MowerMatcher\Mowers\Mower:
+  user_id:
+    type: MowerMatcher\Users\User
+  body: $text
+  created_at: $date
+  updated_at: $date

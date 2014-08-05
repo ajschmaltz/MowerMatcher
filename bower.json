@@ -1,0 +1,19 @@
+{
+  "name": "mowermatcher",
+  "version": "0.0.0",
+  "description": "Matching Mower to Owners",
+  "authors": [
+    "Drew Schmaltz"
+  ],
+  "license": "MIT",
+  "homepage": "mowermatcher.com",
+  "private": true,
+  "dependencies": {
+    "ng-flow": "~2.4.2",
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2",
+    "angular-unsavedChanges": "~0.1.1",
+    "ngGeolocation": "~0.0.4",
+    "angular-google-maps": "~1.2.0"
+  }
+}
