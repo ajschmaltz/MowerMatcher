@@ -1,7 +1,7 @@
 <a class="mower" href="/mowers/1" target="_self">
   <div class="mower-image">
     @if (count($mower->images) > 0)
-      <img class="img-responsive" src="{{ $mower->images[0]->filename }}" />
+      <img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resizeCrop', 40, 20) }}" />
     @endif
   </div>
   <div class="mower-details clearfix text-center">
