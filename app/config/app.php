@@ -124,8 +124,7 @@ return array(
 		'Way\Generators\GeneratorsServiceProvider',
 		'Laracasts\Commander\CommanderServiceProvider',
 		'Laracasts\Validation\ValidationServiceProvider',
-    'Laracasts\Flash\FlashServiceProvider',
-    'Iveoles\Image\ImageServiceProvider'
+    'Laracasts\Flash\FlashServiceProvider'
 
 	),
 
@@ -194,7 +193,6 @@ return array(
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
     'Flash'             => 'Laracasts\Flash\Flash',
-    'Image'             => 'Iveoles\Image\Facades\Image',
 
 	),
 

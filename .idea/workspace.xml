@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mower.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mower.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="105" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+            <state line="2" column="34" selection-start="112" selection-end="112" vertical-scroll-proportion="0.05418139" vertical-offset="0" max-vertical-offset="849">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="0" selection-start="7828" selection-end="7885" vertical-scroll-proportion="0.7290931" vertical-offset="3889" max-vertical-offset="4761">
+            <state line="126" column="42" selection-start="4542" selection-end="4542" vertical-scroll-proportion="0.0" vertical-offset="2277" max-vertical-offset="4715">
               <folding />
             </state>
           </provider>
@@ -183,9 +183,9 @@
         <option value="$PROJECT_DIR$/app/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/source/style.css" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php" />
         <option value="$PROJECT_DIR$/app/helpers/Helpers.php" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php" />
       </list>
     </option>
   </component>
@@ -906,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="105" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="35" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1334">
@@ -929,7 +922,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="0" selection-start="7828" selection-end="7885" vertical-scroll-proportion="0.7290931" vertical-offset="3889" max-vertical-offset="4761">
+        <state line="126" column="42" selection-start="4542" selection-end="4542" vertical-scroll-proportion="0.0" vertical-offset="2277" max-vertical-offset="4715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="34" selection-start="112" selection-end="112" vertical-scroll-proportion="0.05418139" vertical-offset="0" max-vertical-offset="849">
           <folding />
         </state>
       </provider>
