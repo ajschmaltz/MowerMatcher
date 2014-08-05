@@ -29,6 +29,11 @@ class MowerRepository {
     }
   }
 
+  public function getOne($id)
+  {
+    return Mower::with('user', 'images')->findOrFail($id);
+  }
+
   public function getAll()
   {
     return Mower::with('user', 'images')->get();

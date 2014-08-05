@@ -23,93 +23,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2014_07_16_002016_create_mowers_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_16_002016_create_mowers_table.php">
+      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="26" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1196">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3866" max-vertical-offset="4715">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostMowerForm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Forms/PostMowerForm.php">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="2990">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publish-mower-form.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/publish-mower-form.blade.php">
+      <file leaf-file-name=".env.local.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="19" selection-start="5366" selection-end="5366" vertical-scroll-proportion="0.0" vertical-offset="2982" max-vertical-offset="4071">
+            <state line="6" column="3" selection-start="108" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/style.css">
+      <file leaf-file-name="mower.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="42" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="1750" max-vertical-offset="2599">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="mowers.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mowers.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="24" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="1311">
+            <state line="3" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/script.js">
+      <file leaf-file-name="MowersController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/MowersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="17" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1679">
-              <folding>
-                <marker date="1407203230000" expanded="true" signature="2201:2237" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="0.07891637" vertical-offset="462" max-vertical-offset="1311">
+            <state line="74" column="56" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="2737">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/lodash/bower.json">
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+            <state line="84" column="10" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="3128">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
+      <file leaf-file-name="MowerRepository.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Mowers/MowerRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="54" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
+            <state line="33" column="38" selection-start="640" selection-end="640" vertical-scroll-proportion="0.6749117" vertical-offset="117" max-vertical-offset="1587">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterRepository.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Filters/FilterRepository.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/mowers/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+            <state line="4" column="40" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/mowers/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -128,10 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/MowerMatcher/Geo/GeoRepository.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_30_062717_create_search_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_30_063132_create_searches_table.php" />
-        <option value="$PROJECT_DIR$/app/composers/UsersComposer.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Composers/ComposerServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Composers/MowersComposer.php" />
@@ -145,7 +139,6 @@
         <option value="$PROJECT_DIR$/app/MowerMatcher/Registration/TestCommand.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Registration/TestCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/controllers/RegistrationController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/MowersController.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Mowers/PublishMowerCommand.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Mowers/Mower.php" />
         <option value="$PROJECT_DIR$/app/helpers/helpers.php" />
@@ -154,7 +147,6 @@
         <option value="$PROJECT_DIR$/app/controllers/SessionsController.php" />
         <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/app/models/Filter.php" />
-        <option value="$PROJECT_DIR$/app/MowerMatcher/Mowers/MowerRepository.php" />
         <option value="$PROJECT_DIR$/app/helpers/Helpers.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_01_035932_create_filters_table.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Users/User.php" />
@@ -166,7 +158,6 @@
         <option value="$PROJECT_DIR$/app/views/mowers/partials/smart-search.blade.php" />
         <option value="$PROJECT_DIR$/app/views/mowers/partials/search-mower-form.blade.php" />
         <option value="$PROJECT_DIR$/app/views/users/partials/sidenav.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/FiltersController.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Users/UserRepository.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Filters/FilterRepository.php" />
@@ -179,6 +170,13 @@
         <option value="$PROJECT_DIR$/source/script.js" />
         <option value="$PROJECT_DIR$/app/views/mowers/partials/publish-mower-form.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.env.php" />
+        <option value="$PROJECT_DIR$/app/views/mowers/partials/mowers.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/MowersController.php" />
+        <option value="$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/views/mowers/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/MowerMatcher/Mowers/MowerRepository.php" />
       </list>
     </option>
   </component>
@@ -244,38 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,7 +330,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -376,7 +342,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -439,46 +405,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Users/UserPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="42" selection-start="4542" selection-end="4542" vertical-scroll-proportion="0.9736239" vertical-offset="2049" max-vertical-offset="4715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/avatar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="53" selection-start="12" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="13072" selection-end="13072" vertical-scroll-proportion="-0.0" vertical-offset="2484" max-vertical-offset="2714">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Registration/RegisterUserCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
-          <folding>
-            <element signature="e#44#83#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="91" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
@@ -557,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MowersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="19" selection-start="920" selection-end="920" vertical-scroll-proportion="0.5516055" vertical-offset="669" max-vertical-offset="2691">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Filters/CreateFilterCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="3" selection-start="151" selection-end="151" vertical-scroll-proportion="0.26376146" vertical-offset="0" max-vertical-offset="872">
@@ -598,23 +517,6 @@
           <folding>
             <element signature="e#39#81#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mowers.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
-          <folding>
-            <marker date="1406605682000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406605682000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,23 +562,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/users/partials/sidenav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="3" selection-start="2160" selection-end="2160" vertical-scroll-proportion="0.0" vertical-offset="2049" max-vertical-offset="3013">
-          <folding>
-            <marker date="1407183481000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407183481000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Mowers/MowerRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="18" selection-start="671" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1472">
           <folding />
         </state>
       </provider>
@@ -729,16 +614,6 @@
             <marker date="1406742857000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1406742857000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1406742857000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mowers/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <marker date="1406434813000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406434813000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -840,7 +715,45 @@
     <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/publish-mower-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="160" column="19" selection-start="5366" selection-end="5366" vertical-scroll-proportion="0.0" vertical-offset="2982" max-vertical-offset="4071">
-          <folding />
+          <folding>
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1407203283000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -848,14 +761,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="17" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1679">
           <folding>
-            <marker date="1407203230000" expanded="true" signature="2201:2237" placeholder="..." />
+            <marker date="1407203230000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.testing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="0.07891637" vertical-offset="462" max-vertical-offset="1311">
+        <state line="23" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="2990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="108" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mowers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="10" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="3128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mowers/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mowers/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MowersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="56" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="2737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Mowers/MowerRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="640" selection-end="640" vertical-scroll-proportion="0.6749117" vertical-offset="117" max-vertical-offset="1587">
           <folding />
         </state>
       </provider>

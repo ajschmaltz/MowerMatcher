@@ -82,6 +82,11 @@ Route::post('mowers', [
   'uses' => 'MowersController@store'
 ]);
 
+Route::get('mowers/{id}', [
+  'as' => 'mowers_path',
+  'uses' => 'MowersController@show'
+]);
+
 Route::get('sell', [
   'as' => 'sell_path',
   'uses' => 'MowersController@create'

@@ -70,7 +70,9 @@ class MowersController extends BaseController {
 	 */
 	public function show($id)
 	{
-		//
+		$mower = $this->mowerRepository->getOne($id);
+
+    return View::make('mowers.show')->withMower($mower);
 	}
 
 
