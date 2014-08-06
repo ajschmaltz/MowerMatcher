@@ -57,15 +57,12 @@ body {
     margin: .25em;
 }
 
-.mowers {
-    margin-bottom: 2em;
-}
-
 .mower {
     border: 1px solid #ccc;
     background-color: #fff;
     display: block;
     color: #000;
+    margin-bottom: 2em;
 }
 
 a.mower:hover{

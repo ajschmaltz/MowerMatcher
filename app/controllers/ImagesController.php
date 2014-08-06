@@ -13,7 +13,7 @@ class ImagesController extends \BaseController {
 
   function __construct()
   {
-    $this->file = new File(new Config(array('tempDir' => public_path())));
+    $this->file = new File(new Config(array('tempDir' => public_path() . '/pics_mowers_for_sale/temp')));
   }
 
 	/**
@@ -46,7 +46,7 @@ class ImagesController extends \BaseController {
 	 */
 	public function uploader_post()
 	{
-    $destination = public_path() . '/' . Input::get('flowFilename');
+    $destination = public_path() . '/pics_mowers_for_sale/' . Input::get('flowFilename');
     if ($this->file->validateChunk()) {
       $this->file->saveChunk();
     } else {

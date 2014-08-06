@@ -8,3 +8,8 @@ composer.lock
 Thumbs.db
 
 tests/_output/*
+
+/public/pics_mowers_for_sale/*
+/bower_components
+/node_modules
+/source
