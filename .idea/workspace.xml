@@ -32,24 +32,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helpers.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/Helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="1150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,10 +62,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="188" selection-end="188" vertical-scroll-proportion="0.4813154" vertical-offset="0" max-vertical-offset="669">
+            <state line="12" column="1" selection-start="150" selection-end="166" vertical-scroll-proportion="-11.04" vertical-offset="0" max-vertical-offset="460">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="56" selection-end="56" vertical-scroll-proportion="0.13256484" vertical-offset="0" max-vertical-offset="713">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register-jumbotron.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/register-jumbotron.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="6" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
               <folding />
             </state>
           </provider>
@@ -129,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/app/views/mowers/create.blade.php" />
         <option value="$PROJECT_DIR$/app/storage/logs/laravel.log" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Registration/RegisterUserCommand.php" />
@@ -171,7 +170,6 @@
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/mowers/show.blade.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Mowers/MowerRepository.php" />
-        <option value="$PROJECT_DIR$/app/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/app/helpers/Helpers.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
@@ -180,6 +178,8 @@
         <option value="$PROJECT_DIR$/source/style.css" />
         <option value="$PROJECT_DIR$/app/controllers/ImagesController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/register-jumbotron.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.blade.php" />
       </list>
     </option>
   </component>
@@ -306,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,33 +324,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
+              <option name="myItemId" value="register" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,7 +346,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MowerMatcher" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mowermatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mowermatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mowermatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mowermatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,13 +548,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Filters/Filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/MowerMatcher/Filters/CreateFilterCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="3" selection-start="151" selection-end="151" vertical-scroll-proportion="0.26376146" vertical-offset="0" max-vertical-offset="872">
@@ -836,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="98" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mowers/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
@@ -959,7 +975,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="188" selection-end="188" vertical-scroll-proportion="0.4813154" vertical-offset="0" max-vertical-offset="669">
+        <state line="12" column="1" selection-start="150" selection-end="166" vertical-scroll-proportion="-11.04" vertical-offset="0" max-vertical-offset="460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/register-jumbotron.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="56" selection-end="56" vertical-scroll-proportion="0.13256484" vertical-offset="0" max-vertical-offset="713">
           <folding />
         </state>
       </provider>
