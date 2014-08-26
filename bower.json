@@ -14,6 +14,7 @@
     "angular": "~1.2",
     "angular-unsavedChanges": "~0.1.1",
     "ngGeolocation": "~0.0.4",
-    "angular-google-maps": "~1.2.0"
+    "angular-google-maps": "~1.2.0",
+    "bower-google-analytics": "~0.1.1"
   }
 }
