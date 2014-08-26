@@ -2,6 +2,7 @@
 
 use MowerMatcher\Mowers\MowerRepository;
 use MowerMatcher\Mowers\PublishMowerCommand;
+use MowerMatcher\Mowers\MarkMowerSoldCommand;
 use MowerMatcher\Forms\PostMowerForm;
 
 class MowersController extends BaseController {
@@ -110,6 +111,13 @@ class MowersController extends BaseController {
 	{
 		//
 	}
+
+  public function markSold()
+  {
+    $input = Input::all();
+
+    $this->execute(MarkMowerSoldCommand::class, $input);
+  }
 
 
 }

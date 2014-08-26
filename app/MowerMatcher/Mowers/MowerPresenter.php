@@ -14,4 +14,12 @@ class MowerPresenter extends Presenter {
   {
     return $this->created_at->diffForHumans();
   }
+
+  public function description() {
+    return $this->mower_make . ' ' .$this->mower_model;
+  }
+
+  public function availability() {
+    return $this->status == 1 ? 'For Sale' : 'Sold';
+  }
 } 

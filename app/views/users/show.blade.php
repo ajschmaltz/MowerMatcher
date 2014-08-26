@@ -7,7 +7,7 @@
     </div>
     <div class="col-md-9">
 
-      @include ('mowers.partials.mowers', ['mowers' => $user->mowers])
+      @include ('mowers.partials.mower-gallery', ['mowers' => $user->mowers])
 
     </div>
   </div>

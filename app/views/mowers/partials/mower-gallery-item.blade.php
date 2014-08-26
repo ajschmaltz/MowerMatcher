@@ -1,12 +1,10 @@
-@include ('users.partials.mower-admin-functions')
 <a class="mower" href="/mowers/1" target="_self">
   <div class="mower-image">
     @if (count($mower->images) > 0)
-    <img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resizeCrop', 400, 300) }}" />
+      <img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resizeCrop', 400, 300) }}" />
     @endif
   </div>
   <div class="mower-details clearfix text-center">
-    <strong>{{ $mower->present()->availability() }}</strong>
     <strong>{{ $mower->year }} {{ $mower->mower_make }} {{ $mower->mower_model }} {{ $mower->cutting_width }}"</strong>
     <br/>
     {{ $mower->engine_make }} {{ $mower->engine_model }} &middot; {{ $mower->engine_hours }} hours

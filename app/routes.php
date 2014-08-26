@@ -92,6 +92,11 @@ Route::get('sell', [
   'uses' => 'MowersController@create'
 ]);
 
+Route::post('mowers/mark-sold', [
+  'as' => 'mark_mower_sold_path',
+  'uses' => 'MowersController@markSold'
+]);
+
 /**
  * Uploader
  *

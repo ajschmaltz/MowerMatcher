@@ -1,5 +1,7 @@
 @extends('layouts.default')
 
+@section('title', 'Home')
+
 @section('content')
 
   @if (! $currentUser)
@@ -20,7 +22,7 @@
         @include ('mowers.partials.smart-search')
       @endif
 
-      @include ('mowers.partials.mowers')
+      @include ('mowers.partials.mower-gallery')
     </div>
   </div>
 @stop

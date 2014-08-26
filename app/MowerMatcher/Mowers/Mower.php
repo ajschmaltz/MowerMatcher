@@ -33,6 +33,11 @@ class Mower extends \Eloquent {
     return $this->hasMany('MowerMatcher\Images\Image');
   }
 
+  public function scopeAvailable($query)
+  {
+    return $query->where('status', 1);
+  }
+
   /**
    * Publish a new mower
    *

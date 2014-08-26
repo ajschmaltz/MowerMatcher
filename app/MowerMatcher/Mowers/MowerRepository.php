@@ -61,7 +61,15 @@ class MowerRepository {
 
   public function getAllForUser(User $user)
   {
-    return $user->mowers()->with('user', 'images')->latest()->get();
+    return $user->mowers()->with('user', 'images')->available()->latest()->get();
+  }
+
+  public function markSold($id)
+  {
+    $mower = Mower::find($id);
+    $mower->status = 2;
+
+    return $mower->save();
   }
 
 } 
