@@ -31,11 +31,39 @@ class FunctionalHelper extends \Codeception\Module {
     return $this->have('MowerMatcher\Users\User', $overrides);
   }
 
-  public function postAMower($body)
+  public function haveAnImage($overrides = [])
+  {
+    return $this->have('MowerMatcher\Images\Image', $overrides);
+  }
+
+  public function postAMower(
+    $mower_make,
+    $mower_model,
+    $style,
+    $use,
+    $year,
+    $cutting_width,
+    $price,
+    $engine_make,
+    $engine_model,
+    $hours,
+    $body
+  )
   {
     $I = $this->getModule('Laravel4');
 
+    $I->fillField('mower_make', $mower_make);
+    $I->fillField('mower_model', $mower_model);
+    $I->fillField('style', $style);
+    $I->fillField('use', $use);
+    $I->fillField('year', $year);
+    $I->fillField('cutting_width', $cutting_width);
+    $I->fillField('price', $price);
+    $I->fillField('engine_make', $engine_make);
+    $I->fillField('engine_model', $engine_model);
+    $I->fillField('engine_hours', $hours);
     $I->fillField('body', $body);
+
     $I->click('Post Mower');
   }
 }

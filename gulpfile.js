@@ -6,6 +6,8 @@ var uglify     = require('gulp-uglify');
 var minify     = require('gulp-minify-css');
 var filter     = require('gulp-filter');
 var annotate   = require('gulp-ng-annotate');
+var notify     = require('gulp-notify');
+var codecept   = require('gulp-codeception');
 
 var gulpable   = ['bower-js', 'bower-css', 'js', 'css', 'custom-bootstrap', 'watch'];
 
@@ -35,6 +37,7 @@ gulp.task('js', function(){
   .pipe(concat('all.js'))
   .pipe(annotate())
   .pipe(uglify())
+  .pipe(notify('done with javascript'))
   .pipe(gulp.dest('public/js'));
 });
 
@@ -50,3 +53,21 @@ gulp.task('watch', function(){
 });
 
 gulp.task('default', gulpable);
+
+gulp.task('watch-codecept', function(){
+    gulp.watch('app/*', ['codecept']);
+});
+
+gulp.task('codecept', function() {
+    var options = {notify: true, testSuite: 'functional'};
+    gulp.src('tests/*.php')
+        .pipe(codecept('', options))
+        .on('error', notify.onError({
+            title: "Testing Failed",
+            message: "Error(s) occurred during test..."
+        }))
+        .pipe(notify({
+            title: "Testing Passed",
+            message: "All tests have passed..."
+        }));
+});

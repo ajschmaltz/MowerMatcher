@@ -1,12 +1,21 @@
 <?php 
 $I = new FunctionalTester($scenario);
 $I->am('a MowerMatcher member');
-$I->wantTo('I want to post mowers to my profile');
+$I->wantTo('I want to post a mower for sale');
 
 $I->signIn();
 
-$I->amOnPage('/mowers');
-$I->postAMower('My first mower');
-
-$I->seeCurrentUrlEquals('/mowers');
-$I->see('My first mower');
+$I->amOnPage('/sell');
+$I->postAMower(
+  'Toro',
+  'TimeCutter',
+  'Zero Turn',
+  'Residential',
+  '2004',
+  '42',
+  '1500',
+  'Kohler',
+  'Courage',
+  '400',
+  'My first mower'
+);

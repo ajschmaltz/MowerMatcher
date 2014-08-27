@@ -5,6 +5,4 @@ $I->wantTo('login to my MowerMatcher account');
 
 $I->signIn();
 
-$I->seeInCurrentUrl('mowers');
-$I->see('Welcome back!');
 $I->assertTrue(Auth::check());

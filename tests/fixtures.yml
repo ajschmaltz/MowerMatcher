@@ -8,6 +8,18 @@ MowerMatcher\Users\User:
 MowerMatcher\Mowers\Mower:
   user_id:
     type: MowerMatcher\Users\User
+  mower_make: $string
+  mower_model: $string
+  mower_style: $string
+  use: $string
+  year: $integer
+  cutting_width: $integer
+  price: $decimal
+  engine_make: $string
+  engine_model: $string
+  hours: $integer
   body: $text
   created_at: $date
   updated_at: $date
+
+MowerMatcher\Images\Image:

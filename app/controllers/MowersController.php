@@ -59,7 +59,7 @@ class MowersController extends BaseController {
 
     Flash::message('Your mower has been published!');
 
-    return Redirect::back();
+    return Redirect::to('/');
 	}
 
 

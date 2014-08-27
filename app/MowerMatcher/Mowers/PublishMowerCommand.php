@@ -29,7 +29,7 @@ class PublishMowerCommand {
 
   public $year;
 
-  function __construct($body, $cutting_width, $engine_hours, $engine_make, $engine_model, $imageIds, $mower_make, $mower_model, $price, $style, $use, $userId, $year)
+  function __construct($body, $cutting_width, $engine_hours, $engine_make, $engine_model, $imageIds = null, $mower_make, $mower_model, $price, $style, $use, $userId, $year)
   {
     $this->body = $body;
     $this->cutting_width = $cutting_width;
