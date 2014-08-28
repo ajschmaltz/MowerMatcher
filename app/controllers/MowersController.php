@@ -37,7 +37,7 @@ class MowersController extends BaseController {
 	 */
 	public function create()
 	{
-    return View::make('mowers.create');
+    return View::make('pages.sell');
 	}
 
 

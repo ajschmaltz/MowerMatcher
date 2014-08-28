@@ -1,10 +1,9 @@
-@include ('users.partials.mower-admin-functions')
 @if (count($mower->images) > 0)
-<img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resize', '846') }}" />
+<img class="img-responsive" src="{{ Image::path('/pics_mowers_for_sale/'.$mower->images[0]->filename, 'resize', '846') }}" />
 @endif
 
 @foreach ($mower->images as $image)
-<img class="img-responsive pull-left" src="{{ Image::path('/'.$image->filename, 'resize', '100') }}" />
+<img class="img-responsive pull-left" src="{{ Image::path('/pics_mowers_for_sale/'.$image->filename, 'resize', '100') }}" />
 @endforeach
 
 <table class="table">

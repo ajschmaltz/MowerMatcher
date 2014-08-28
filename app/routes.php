@@ -97,6 +97,12 @@ Route::post('mowers/mark-sold', [
   'uses' => 'MowersController@markSold'
 ]);
 
+Route::get('my/mowers', [
+  'before' => 'auth',
+  'as' => 'admin_mowers_path',
+  'uses' => 'AdminMowersController@index'
+]);
+
 /**
  * Uploader
  *

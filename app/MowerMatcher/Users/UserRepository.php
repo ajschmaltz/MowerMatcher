@@ -37,4 +37,19 @@ class UserRepository {
       $query->available();
     }, 'mowers.images', 'mowers.user'])->whereUsername($username)->first();
   }
+
+  /**
+   * Fetch a user by their id
+   *
+   * @param $id
+   * @return mixed
+   */
+  public function findById($id)
+  {
+    return User::with(['mowers' => function($query)
+      {
+        $query->latest();
+        $query->available();
+      }, 'mowers.images', 'mowers.user'])->find($id);
+  }
 }

@@ -7,7 +7,7 @@
   </div>
   <div class="col-md-9">
 
-      @include ('mowers.partials.publish-mower-form')
+    @include ('mowers.partials.publish-mower-form')
 
   </div>
 </div>
