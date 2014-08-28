@@ -83,7 +83,7 @@ Route::post('mowers', [
 ]);
 
 Route::get('mowers/{id}', [
-  'as' => 'mowers_path',
+  'as' => 'mower_path',
   'uses' => 'MowersController@show'
 ]);
 
@@ -133,7 +133,6 @@ Route::post('filters', [
   'as' => 'filters_path',
   'uses' => 'FiltersController@store'
 ]);
-
 Route::get('filters/manage', [
   'as' => 'manage_filters_path',
   'uses' => 'FiltersController@index'

@@ -63,11 +63,16 @@ gulp.task('codecept', function() {
     gulp.src('tests/*.php')
         .pipe(codecept('', options))
         .on('error', notify.onError({
-            title: "Testing Failed",
-            message: "Error(s) occurred during test..."
+            title: 'CODECEPTION TESTS',
+            message: 'Tests Failed'
         }))
         .pipe(notify({
-            title: "Testing Passed",
-            message: "All tests have passed..."
+            title: 'CODECEPTION TESTS',
+            message: 'Tests Passed'
         }));
+});
+
+gulp.task('test', function(){
+    gulp.src('tests/*.php')
+        .pipe(notify('testing'));
 });

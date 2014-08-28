@@ -5,6 +5,11 @@
     <img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resize', '846') }}" />
     @endif
   </div>
+  <div class="mower-images">
+    @foreach ($mower->images as $image)
+    <img class="img-responsive" src="{{ Image::path('/'.$image->filename, 'resize', '100') }}" />
+    @endforeach
+  </div>
   <div class="mower-details clearfix text-center">
     <strong>{{ $mower->present()->availability() }}</strong>
     <strong>{{ $mower->year }} {{ $mower->mower_make }} {{ $mower->mower_model }} {{ $mower->cutting_width }}"</strong>
@@ -12,5 +17,5 @@
     {{ $mower->engine_make }} {{ $mower->engine_model }} &middot; {{ $mower->engine_hours }} hours
     <br/>
     <span class="lead">${{ number_format($mower->price) }}</span> OBO
-  </div>
+  </div
 </a>
