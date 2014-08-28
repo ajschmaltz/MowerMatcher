@@ -4,7 +4,7 @@
 @endif
 
 @foreach ($mower->images as $image)
-<img class="img-responsive" src="{{ Image::path('/'.$image->filename, 'resize', '100') }}" />
+<img class="img-responsive pull-left" src="{{ Image::path('/'.$image->filename, 'resize', '100') }}" />
 @endforeach
 
 <table class="table">

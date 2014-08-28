@@ -35,7 +35,7 @@
       <file leaf-file-name="mower.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="33" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.6991279" vertical-offset="692" max-vertical-offset="1380">
+            <state line="6" column="36" selection-start="267" selection-end="267" vertical-scroll-proportion="0.2005814" vertical-offset="0" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -692,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mowers/partials/mower.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="33" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.6991279" vertical-offset="692" max-vertical-offset="1380">
+        <state line="6" column="36" selection-start="267" selection-end="267" vertical-scroll-proportion="0.2005814" vertical-offset="0" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
