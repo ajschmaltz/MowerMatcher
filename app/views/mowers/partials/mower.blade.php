@@ -1,21 +1,55 @@
 @include ('users.partials.mower-admin-functions')
-<a class="mower" href="/mowers/1" target="_self">
-  <div class="mower-image">
-    @if (count($mower->images) > 0)
-    <img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resize', '846') }}" />
-    @endif
-  </div>
-  <div class="mower-images">
-    @foreach ($mower->images as $image)
-    <img class="img-responsive" src="{{ Image::path('/'.$image->filename, 'resize', '100') }}" />
-    @endforeach
-  </div>
-  <div class="mower-details clearfix text-center">
-    <strong>{{ $mower->present()->availability() }}</strong>
-    <strong>{{ $mower->year }} {{ $mower->mower_make }} {{ $mower->mower_model }} {{ $mower->cutting_width }}"</strong>
-    <br/>
-    {{ $mower->engine_make }} {{ $mower->engine_model }} &middot; {{ $mower->engine_hours }} hours
-    <br/>
-    <span class="lead">${{ number_format($mower->price) }}</span> OBO
-  </div
-</a>
+@if (count($mower->images) > 0)
+<img class="img-responsive" src="{{ Image::path('/'.$mower->images[0]->filename, 'resize', '846') }}" />
+@endif
+
+@foreach ($mower->images as $image)
+<img class="img-responsive" src="{{ Image::path('/'.$image->filename, 'resize', '100') }}" />
+@endforeach
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Spec</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Price</td>
+      <td>${{ number_format($mower->price) }}</td>
+    </tr>
+    <tr>
+      <td>Availability</td>
+      <td>{{ $mower->present()->availability() }}</td>
+    </tr>
+    <tr>
+      <td>Make</td>
+      <td>{{ $mower->mower_make }}</td>
+    </tr>
+    <tr>
+      <td>Model</td>
+      <td>{{ $mower->mower_model }}</td>
+    </tr>
+    <tr>
+      <td>Year</td>
+      <td>{{ $mower->year }}</td>
+    </tr>
+    <tr>
+      <td>Cutting Width</td>
+      <td>{{ $mower->cutting_width }}"</td>
+    </tr>
+    <tr>
+      <td>Engine Make</td>
+      <td>{{ $mower->engine_make }}</td>
+    </tr>
+    <tr>
+      <td>Engine Model</td>
+      <td>{{ $mower->engine_model }}</td>
+    </tr>
+    <tr>
+      <td>Engine Hours</td>
+      <td>{{ $mower->engine_hours }}</td>
+    </tr>
+  </tbody>
+</table>
