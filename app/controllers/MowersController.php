@@ -73,7 +73,7 @@ class MowersController extends BaseController {
 	{
 		$mower = $this->mowerRepository->getOne($id);
 
-    return View::make('mowers.show')->withMower($mower);
+    return View::make('pages.mowers.id')->withMower($mower);
 	}
 
 

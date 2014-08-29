@@ -1,5 +1,5 @@
 <div class="pad text-center">
-  @include ('layouts.partials.avatar', ['size' => 100])
+  @include ('users.avatar', ['size' => 100])
   <h3>{{ $user->username }}</h3>
 </div>
 <hr/>

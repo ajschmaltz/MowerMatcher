@@ -6,11 +6,11 @@
 <div class="row">
 
   <div class="col-md-3">
-    @include ('users.partials.sidenav', ['user' => $mower->user])
+    @include ('users.sidenav', ['user' => $mower->user])
   </div>
 
   <div class="col-md-9">
-    @include ('mowers.partials.mower')
+    @include ('mowers.mower')
   </div>
 
 </div>

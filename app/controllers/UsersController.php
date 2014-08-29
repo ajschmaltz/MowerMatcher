@@ -27,7 +27,7 @@ class UsersController extends \BaseController {
   {
     $user = $this->userRepository->findByUsername($username);
 
-    return View::make('users.show')->withUser($user);
+    return View::make('pages.username')->withUser($user);
   }
 
 }

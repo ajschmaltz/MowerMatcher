@@ -3,11 +3,11 @@
 @section('content')
 <div class="row">
   <div class="col-md-3">
-    @include ('users.sidenav', ['user' => $currentUser])
+    @include ('users.sidenav')
   </div>
   <div class="col-md-9">
 
-    @include ('mowers.publish-mower-form')
+    @include ('mowers.mower-gallery', ['mowers' => $user->mowers])
 
   </div>
 </div>
