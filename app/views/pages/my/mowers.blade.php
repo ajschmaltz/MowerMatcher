@@ -1,5 +1,5 @@
 @extends ('layouts.default')
 
 @section('content')
-  @include('mowers.partials.mower-admin-table')
+  @include('mowers.mower-admin-table')
 @stop

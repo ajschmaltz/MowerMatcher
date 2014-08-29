@@ -49,7 +49,6 @@ class UserRepository {
     return User::with(['mowers' => function($query)
       {
         $query->latest();
-        $query->available();
       }, 'mowers.images', 'mowers.user'])->find($id);
   }
 }

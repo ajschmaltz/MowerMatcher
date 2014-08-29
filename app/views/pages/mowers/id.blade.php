@@ -6,7 +6,8 @@
 <div class="row">
 
   <div class="col-md-3">
-    @include ('users.sidenav', ['user' => $mower->user])
+    @include ('users.profile', ['user' => $mower->user])
+    @include ('mowers.specs')
   </div>
 
   <div class="col-md-9">

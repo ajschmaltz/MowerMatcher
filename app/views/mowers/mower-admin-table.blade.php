@@ -1,7 +1,7 @@
 <table class="table">
   <thead>
     <tr>
-      <th>id</th>
+      <th>Image</th>
       <th>Mower Description</th>
       <th>Actions</th>
     </tr>
@@ -9,10 +9,10 @@
   <tbody>
     @foreach ($user->mowers as $mower)
     <tr>
-      <td>{{ $mower->id }}</td>
-      <td>{{ $mower->mower_make }}</td>
+      <td>{{ $mower->present()->image('resize', 100, 100) }}</td>
+      <td>{{ $mower->present()->description() }}</td>
       <td>
-        @include ('mowers.partials.mower-admin-functions')
+        @include ('mowers.mower-admin-functions')
       </td>
     </tr>
     @endforeach
