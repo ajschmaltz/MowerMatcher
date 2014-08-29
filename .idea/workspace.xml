@@ -32,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mower.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mower.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/mowers/mower.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="0.20444444" vertical-offset="0" max-vertical-offset="675">
+            <state line="6" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="276">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="username.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/username.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="24" selection-start="156" selection-end="156" vertical-scroll-proportion="0.23401164" vertical-offset="0" max-vertical-offset="688">
               <folding />
             </state>
           </provider>
@@ -97,7 +106,6 @@
         <option value="$PROJECT_DIR$/app/controllers/RegistrationController.php" />
         <option value="$PROJECT_DIR$/app/controllers/SessionsController.php" />
         <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/app/views/pages/username.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/sell.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/my/mowers.blade.php" />
         <option value="$PROJECT_DIR$/app/MowerMatcher/Users/UserRepository.php" />
@@ -111,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/views/pages/mowers/id.blade.php" />
         <option value="$PROJECT_DIR$/app/views/mowers/mower.blade.php" />
         <option value="$PROJECT_DIR$/app/views/mowers/specs.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/pages/username.blade.php" />
       </list>
     </option>
   </component>
@@ -236,32 +245,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowermatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mowers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -738,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/username.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/sell.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="20" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
@@ -847,7 +823,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mowers/mower.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="0.20444444" vertical-offset="0" max-vertical-offset="675">
+        <state line="6" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/username.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="156" selection-end="156" vertical-scroll-proportion="0.23401164" vertical-offset="0" max-vertical-offset="688">
           <folding />
         </state>
       </provider>
