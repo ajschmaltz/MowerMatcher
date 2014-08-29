@@ -109,7 +109,8 @@ class MowersController extends BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$this->mowerRepository->delete($id);
+    return Redirect::back();
 	}
 
   public function markSold()

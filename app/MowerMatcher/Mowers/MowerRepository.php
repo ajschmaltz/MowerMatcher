@@ -72,4 +72,9 @@ class MowerRepository {
     return $mower->save();
   }
 
+  public function delete($id)
+  {
+    return Mower::destroy($id);
+  }
+
 } 

@@ -87,6 +87,11 @@ Route::get('mowers/{id}', [
   'uses' => 'MowersController@show'
 ]);
 
+Route::get('mowers/delete/{id}', [
+  'as' => 'mower_delete_path',
+  'uses' => 'MowersController@destroy'
+]);
+
 Route::get('sell', [
   'as' => 'sell_path',
   'uses' => 'MowersController@create'
